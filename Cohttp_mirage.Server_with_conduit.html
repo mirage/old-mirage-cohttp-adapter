@@ -1,0 +1,26 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<link rel="stylesheet" href="style.css" type="text/css">
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+<link rel="Start" href="index.html">
+<link rel="previous" href="Cohttp_mirage.Server.html">
+<link rel="Up" href="Cohttp_mirage.html">
+<link title="Index of values" rel=Appendix href="index_values.html">
+<link title="Index of modules" rel=Appendix href="index_modules.html">
+<link title="Cohttp_mirage" rel="Chapter" href="Cohttp_mirage.html"><title>Cohttp_mirage.Server_with_conduit</title>
+</head>
+<body>
+<div class="navbar"><a class="pre" href="Cohttp_mirage.Server.html" title="Cohttp_mirage.Server">Previous</a>
+&nbsp;<a class="up" href="Cohttp_mirage.html" title="Cohttp_mirage">Up</a>
+&nbsp;</div>
+<h1>Module <a href="type_Cohttp_mirage.Server_with_conduit.html">Cohttp_mirage.Server_with_conduit</a></h1>
+
+<pre><span class="keyword">module</span> Server_with_conduit: <code class="code"><span class="keyword">sig</span></code> <a href="Cohttp_mirage.Server_with_conduit.html">..</a> <code class="code"><span class="keyword">end</span></code></pre><div class="info module top">
+HTTP server with conduit.<br>
+</div>
+<hr width="100%">
+
+<pre><span class="keyword">include</span> Cohttp_lwt.Server</pre>
+
+<pre><span id="VALconnect"><span class="keyword">val</span> connect</span> : <code class="type">Conduit_mirage.t -><br>       [> `Ok of Conduit_mirage.server -> t -> unit Lwt.t ] Lwt.t</code></pre></body></html>
