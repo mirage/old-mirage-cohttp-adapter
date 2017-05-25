@@ -1,1 +1,1 @@
-### mirage-http -- MirageOS-compatible implementation of the Cohttp interfaces
+This repository is retired. Development moved to https://github.com/mirage/ocaml-cohttp
